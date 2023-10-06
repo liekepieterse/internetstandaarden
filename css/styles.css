@@ -57,33 +57,35 @@ nav{
 
 
 .button{
-   color: #5C4B51;                    /* darkgray */
-   background-color: #e9748a;          /* pink */
-   font-weight: bold;
-   padding-left: 1em;
-   padding-right: 1em;
-   text-align: center;
-   border: none; 
-   width: fit-content;
-   height: fit-content;
-   border-radius: 1em;
-   box-sizing: border-box;
-   margin: 100px auto;
-   font-size: 5em;
-   font-family: Arial, Helvetica, sans-serif;
+  color: #5C4B51;                    /* darkgray */
+  background-color: #e9748a;          /* pink */
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  border: none; 
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1em;
+  box-sizing: border-box;
+  margin: 1em auto;
+  font-size: 5em;
+  font-family: Arial, Helvetica, sans-serif; 
 }
 
 
 .button:hover{
-   background-color: #e65f77;
+ background-color: #ce425c;
+ transition-duration: 1s;
 }
 
 
 .vinyl{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-size: 3em;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 3em;
+ 
 }
 
 .vinyl img{
@@ -92,14 +94,14 @@ nav{
 }
 
 .covers{
-    background-color: #81A0B2;   /* blue */
-    padding: 2em;
-    border-radius: 3em;
-    flex-wrap: wrap;
-    gap: 2em;
-    justify-content: space-evenly; 
-    justify-content: center;
-    display:inline-flex;
+  background-color: #81A0B2;   /* blue */
+  padding: 2em;
+  border-radius: 3em;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-evenly; 
+  justify-content: center;
+  display:inline-flex;
 }
 .covers img{
   max-width: 16vw;
@@ -111,11 +113,13 @@ a:any-link{
 }
 
 a:hover{
-  color:#689a8a   /* dark green */
+  color:#689a8a;   /* dark green */
+  transition-duration: 2s;
 }
 
 a:focus{
   color:#529a77;   /* green */
+  transition-duration: 2s;
 }
 
 a{
@@ -125,10 +129,13 @@ a{
 .intro-text{
   display: flex;
   justify-content: center;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 footer{
-  margin-top: 10em;
+  margin-top: 20em;
 }
 
 .genre-l{
@@ -153,15 +160,4 @@ footer{
   flex-wrap: wrap;
 }
 
-nav a{
-  border-bottom: #5C4B51;
-}
 
-
-
-
-
-
-  
-
-  
